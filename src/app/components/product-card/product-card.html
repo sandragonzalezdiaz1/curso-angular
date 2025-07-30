@@ -1,0 +1,57 @@
+<div class="product" [attr.units-available]="product.unitAvailable"> <!-- Attribute binding -->
+    <div class="product--image">
+        <!-- <img
+            [src] = "product.image" [alt]= "product.name"> --> <!-- Property binding -->
+            <img 
+            (mouseenter)="onMouseEnter()"
+            (mouseleave)="onMouseLeave()"
+            [attr.src]="product.image"
+            [alt] = "product.name"
+            [style] = "productImageStyle">
+            <!--  [style] = "product.unitAvailable < 1 ? productImageStyle : '' " -->
+
+            <!--[class] = "'border-btn'" -->
+            <!-- [style.border] = "imgBorderStyle" -->
+    </div>
+    <div class="product--info">
+        <h1 class="product--info__title">{{ product.name | uppercase }}</h1>
+        <h3>{{ product.date | date:'longDate' }}</h3>
+        <ng-container [ngSwitch]="product.category">
+            <p *ngSwitchCase="'technology'" [ngStyle]="{color:'red'}"> {{ product.category }}</p>
+            <p *ngSwitchCase="'cosmetics'" [ngStyle]="{color:'green'}"> {{ product.category }}</p>
+            <p *ngSwitchCase="'home'" [ngStyle]="{color:'blue'}"> {{ product.category }}</p>
+        </ng-container>
+        <p class="product--info_description"> {{ product.description }}</p>
+        <div>
+            <h1>{{ product.price | currency }}</h1>
+        </div>
+    <div class="product--actions">
+        <button 
+        (click) = "buyProduct()"
+        [disabled]="!(product.unitAvailable > 1)" class="product--actions__btn buy">BUY</button>
+
+        <button 
+        (click) = "addToCard()"
+        class="product--actions__btn add">+ CART</button>
+    </div>
+</div>
+
+
+<form 
+[style.display] = "!formState ? 'none' : 'flex'"
+class="form">
+    <h2>Datos de compra</h2>
+    <label for="address">Direccion</label>
+    <input 
+    [(ngModel)]="address"
+    type="text" name="address" id="address">
+    <label for="postalCode">Codigo postal</label>
+    <input 
+    [(ngModel)]="postalCode"
+    type="number" name="postalCode" id="postalCode">
+    <div class="actions">
+        <button 
+        (click) = "orderProduct()"
+        type="submit">ORDER</button>
+    </div>
+</form>

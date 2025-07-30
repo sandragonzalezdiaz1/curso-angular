@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+    "image":"https://idealjoyeros.com/wp-content/uploads/mejores-relojes-titanio.jpeg",
+    "name": "Small Cotton Keyboard",
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "unitAvailable": "90",
+    "date": "Sun Mar 16 2025 11:18:32 GMT+0100 (Central European Standard Time)",
+    "price": "826.00",
+    "category": "technology"
+  },
+  {
+    "image":"https://static.abc.es/media/summum/2018/01/27/MONTBLANC--tendencia-relojes-vintage-apertura-kFeB--1240x698@abc-k5BI--1240x698@abc.jpg",
+    "name": "Refined Steel Soap",
+    "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    "unitAvailable": "120",
+    "date": "Tue Oct 08 2024 19:40:41 GMT+0200 (Central European Summer Time)",
+    "price": "560.00",
+    "category":"home"
+  },
+  {
+    "image":"https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/6459862660916_1.jpg",
+    "name": "Intelligent Rubber Salad",
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "unitAvailable": "100",
+    "date": "Wed Oct 09 2024 22:51:00 GMT+0200 (Central European Summer Time)",
+    "price": "672.00",
+    "category": "phone"
+  },
+  {
+    "image":"https://static6.festinagroup.com/product/lotus/artistic/big/l18938_1_2.png",
+    "name": "Small Steel Sausages",
+    "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    "unitAvailable": "1",
+    "date": "Wed Sep 25 2024 18:21:59 GMT+0200 (Central European Summer Time)",
+    "price": "995.00",
+    "category": "cosmetics"
+  },
+  {
+    "image": "https://www.joyeriaoliva.com/wp-content/uploads/2020/11/reloj-lotus-hybrid-hombre-188091.jpg",
+    "name": "Rustic Fresh Gloves",
+    "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    "unitAvailable": "30",
+    "date": "Tue Jul 08 2025 12:28:33 GMT+0200 (Central European Summer Time)",
+    "price": "1000.00"
+  }
+  ],
+  "status": 200
+}
