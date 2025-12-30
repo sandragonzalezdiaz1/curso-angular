@@ -1,3 +1,11 @@
 h1 {
-    margin: 0;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #2c2c2c;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.2rem;
 }
+
+
+

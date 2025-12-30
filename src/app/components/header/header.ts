@@ -13,10 +13,10 @@ import { RouterModule } from '@angular/router';
 
 export class Header{
 
-  pageTitle = "Mi App";
+  pageTitle = "SmartWatch Store";
 
   userInfo = {
-    image: 'https://i.pinimg.com/474x/bb/1c/e4/bb1ce4532c0589a85b6394934cdb1bb3.jpg',
+    image: 'https://media.istockphoto.com/id/2123185822/es/foto/un-hombre-comprobando-el-primer-plano-de-un-reloj-de-pulsera.jpg?s=612x612&w=0&k=20&c=rzzcHqp_6-N_iJU1T_fRAchkiEd9eM5hg5UyusQcSFg=',
     role: 'SALES'
   }
 

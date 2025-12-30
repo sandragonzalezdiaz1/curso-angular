@@ -11,16 +11,15 @@ import { Component } from '@angular/core';
 export class UserCard {
 
   name = 'Sandra';
-  surname = 'La puta ama';
-  age = 27;
+  surname = 'Gonzalez';
+  age = 23;
   married = true;
   address = {
     country:'SPAIN',
-    city: 'Madrid',
-    street: 'Monte albillo'
+    city: 'Barcelona',
+    street: 'Milhojas 34'
   }
 
-  private dni = '54345677M';
   public nationality = 'Española';
 
   getDate(){

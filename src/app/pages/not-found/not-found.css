@@ -1,0 +1,20 @@
+
+p {
+    font-size: 20px;
+}
+
+.btn-primary {
+    text-decoration: none;
+     background-color: #2d3436;
+     color: #fff;
+     border: 2px solid #2d3436;
+     border-radius: 5px;
+     padding: 8px 12px;
+     cursor: pointer;
+     transition: all 0.2s ease;
+
+}
+
+.btn-primary:hover {
+  background-color: #636e72;
+}
